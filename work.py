@@ -48,8 +48,8 @@ if __name__ == "__main__":
     # task_1:
     # user_input = input("Введіть дату у форматі РРРР-ММ-ДД: ")
     # print(get_days_from_today(user_input))
-    print(get_days_from_today("2022-02-24"))
-    print(get_days_from_today("2025-08-24"))
+    print(get_days_from_today("2022-02-24"))  # -1134
+    print(get_days_from_today("2025-08-24"))  # 143
     print('-'*50)
     # task_2:
     try:
